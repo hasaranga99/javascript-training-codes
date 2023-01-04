@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Javascript Events</h1>
+        <!--The Click Event (onclick) -->
+        <input type="button" value="On Click" onclick="isOnclickFun()"><br>
+
+        <!--The Db Click Event (ondblclick)-->
+        <input type="button" value="On Duble click" ondblclick="isDubleCickFun()"><br>
+
+        <!--The Right Click Event (oncontextmenu) -->
+        <input type="button" value="On Right Click" oncontextmenu="isRightClick()">
+
+        <script>
+            function isOnclickFun(){
+                alert('You have clicked a button');
+            }
+            
+            function isDubleCickFun(){
+                alert('You have duble clicked a button');
+            }
+
+            function isRightClick(){
+                alert('You have Right clicked a button');
+            }
+        </script>
+    </body>
+</html>
+

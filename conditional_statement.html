@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>JavaScript Conditional Statement - if </h1>
+        <script>
+          var ischeck = true;
+
+          if(ischeck){
+            document.write('If Statement');
+          }
+          document.write('<br>')
+
+          var num1 = 15;
+          var ans = num1 % 2;
+
+          if(ans == 1){
+            document.write(num1+ ' is a odd Number');
+          }else{
+            document.write('This is a even number');
+          }
+
+
+          document.write('<br>')
+
+          var subject = 52;
+
+          if(subject >= 75){
+            document.write('Subject : A pass');
+          }else if(subject >= 65){
+            document.write('Subject : B pass');
+          }else if(subject >=45){
+            document.write('Subject : C pass');
+          }else{
+            document.write('Subject : Fail')
+          }
+
+          document.write('<br>')
+
+          //ternary Operation
+
+          var age = 23;
+          var result = (age >= 18) ? 'Adult':'Child';
+          document.write('Age type :'+result);
+
+          document.write('<br>')
+
+        </script>
+    </body>
+</html>
+
